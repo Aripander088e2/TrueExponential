@@ -71,14 +71,14 @@ angular.module('incremental',['ngAnimate']).directive('onFinishRender', function
 		$scope.secondPrestigeGoal = [new Decimal("3e2"),
 			 							new Decimal("1e5"),
 										new Decimal("1e30"),
+										new Decimal("1e100"),
+										new Decimal("1e250"),
+										new Decimal("1e500"),
+										new Decimal("1e1250"),
+										new Decimal("1e5000"),
 										new Decimal("1e10000"),
-										new Decimal("1e25000"),
-										new Decimal("1e50000"),
-										new Decimal("1e125000"),
-										new Decimal("1e250000"),
-										new Decimal("1e500000"),
-										new Decimal("1e1000000"),
-										new Decimal("1e2500000")];
+										new Decimal("1e30000"),
+										new Decimal("1e90000")];
 		
 		var producerUpgradeBasePrice = [];
 						
