@@ -54,12 +54,12 @@ angular.module('incremental',['ngAnimate']).directive('onFinishRender', function
 		*/
 		// Constants
 		$scope.prestigeGoal = [new Decimal("1e2"),
-							new Decimal("1e5"),
-							new Decimal("1e15"),
-							new Decimal("1e200"),
-							new Decimal("1e1250"),
-							new Decimal("1e2500"),
-							new Decimal("1e5000"),
+							new Decimal("1.2e2"),
+							new Decimal("1e3"),
+							new Decimal("1e20"),
+							new Decimal("1e125"),
+							new Decimal("1e250"),
+							new Decimal("1e500"),
 							new Decimal("1e12500"),
 							new Decimal("1e25000"),
 							new Decimal("1e50000"),
